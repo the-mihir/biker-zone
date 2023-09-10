@@ -59,19 +59,20 @@
         <!-- End Nav bar -->
 
         <!-- Hero slider start here -->
-        <div class="slider__div container mx-auto">
+        <div class="slider__div container mx-auto bg-red-200 my-12 rounded">
             <div class="carousel w-full h-[550px]">
                 <div id="slide1" class="carousel-item relative w-full ">
-                    <div class="hero__info flex justify-between items-center p-28">
+                    <div class="hero__info flex flex-col p-5 lg:flex-row justify-between items-center md:p-28 gap-5">
                         <div class="hero__content flex-1 ">
-                            <h2 class="text-7xl font-semibold text-black">Ride-on R15 V4 <br> with Smile</h2>
-                            <p class="py-8">Amet minim mollit non deserunt ullamco
+                            <h2 class="text-3xl md:text-7xl lg:md:text-7xl font-semibold text-black">Ride-on R15 V4 <br>
+                                with Smile</h2>
+                            <p class="py-8 text-black">Amet minim mollit non deserunt ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                             <button class="btn btn-error text-white">Purchase</button>
 
                         </div>
                         <div class="hero__imae flex-1">
-                            <img src="./images/slider/bike1.png" class="3/4 p-12" />
+                            <img src="./images/slider/bike1.png" class="3/4 md:p-12" />
                         </div>
                     </div>
 
@@ -81,16 +82,16 @@
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
-                    <div class="hero__info flex justify-between items-center">
-                        <div class="hero__content">
-                            <h2>Ride-on R15 V4 with Smile</h2>
-                            <p>Amet minim mollit non deserunt ullamco
+                    <div class="hero__info flex flex-col lg:flex-row justify-between lg: items-center p-28 gap-5">
+                        <div class="hero__content flex-1 ">
+                            <h2 class="text-7xl font-semibold text-black">Ride-on R15 V4 <br> with Smile</h2>
+                            <p class="py-8 text-black">Amet minim mollit non deserunt ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                             <button class="btn btn-error text-white">Purchase</button>
 
                         </div>
-                        <div class="hero__imae">
-                            <img src="./images/slider/bike2.png" class="w-full" />
+                        <div class="hero__imae flex-1">
+                            <img src="./images/slider/bike2.png" class="3/4 p-12" />
                         </div>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -99,16 +100,16 @@
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
-                    <div class="hero__info flex justify-between items-center">
-                        <div class="hero__content">
-                            <h2>Ride-on R15 V4 with Smile</h2>
-                            <p>Amet minim mollit non deserunt ullamco
+                    <div class="hero__info flex flex-col lg:flex-row justify-between lg: items-center p-28 gap-5">
+                        <div class="hero__content flex-1 ">
+                            <h2 class="text-7xl font-semibold text-black">Ride-on R15 V4 <br> with Smile</h2>
+                            <p class="py-8 text-black">Amet minim mollit non deserunt ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                             <button class="btn btn-error text-white">Purchase</button>
 
                         </div>
-                        <div class="hero__imae">
-                            <img src="./images/slider/bike3.png" class="w-full" />
+                        <div class="hero__imae flex-1">
+                            <img src="./images/slider/bike3.png" class="3/4 p-12" />
                         </div>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -117,16 +118,16 @@
                     </div>
                 </div>
                 <div id="slide4" class="carousel-item relative w-full">
-                    <div class="hero__info flex justify-between items-center">
-                        <div class="hero__content">
-                            <h2>Ride-on R15 V4 with Smile</h2>
-                            <p>Amet minim mollit non deserunt ullamco
+                    <div class="hero__info flex flex-col lg:flex-row justify-between lg: items-center p-28 gap-5">
+                        <div class="hero__content flex-1 ">
+                            <h2 class="text-7xl font-semibold text-black">Ride-on R15 V4 <br> with Smile</h2>
+                            <p class="py-8 text-black">Amet minim mollit non deserunt ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                             <button class="btn btn-error text-white">Purchase</button>
 
                         </div>
-                        <div class="hero__imae">
-                            <img src="./images/slider/bike4.png" class="w-full" />
+                        <div class="hero__imae flex-1">
+                            <img src="./images/slider/bike4.png" class="3/4 p-12" />
                         </div>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -140,7 +141,26 @@
 
         <!-- Hero slider end here -->
     </header>
-    <main>
+    <main class="container mx-auto">
+        <section class=" Featured__bike py-20">
+            <h2 class="text-5xl font-semibold text-center uppercase">Fetured Bikes In This Year</h2>
+            <div class="flex flex-col md:flex-row lg:flex-row py-10 justify-center items-center gap-8">
+                <div class="flex-1">
+                    <img src="./images/others/feature-bike.png" class="w-full" />
+                </div>
+                <div class="flex-1">
+                    <img src="./images/slider/bike1.png" class="w-full" />
+                </div>
+                <div class="flex-1">
+                    <img src="./images/others/extrabike.png" class="w-full" />
+                </div>
+            </div>
+        </section>
+
+        <secction class="news">
+            <h2 class="text-5xl font-semibold text-center uppercase">latest News</h2>
+
+        </secction>
     </main>
 
 
